@@ -68,3 +68,39 @@ UE5_GothicChapel 작업 기록
 - 사용자가 '커밋 내용 작성해줘'라고 요청하면 저장소의 커밋 규칙과 기존 형식을 확인하고 한글로 제목과 본문을 작성합니다.
 - 현재 최근 커밋은 feat:, docs:, art:, chore: 등의 타입 접두사를 사용하는 형식입니다.
 - 이번 블록아웃 작업에 대한 한글 커밋 메시지를 작성했습니다. 실제 커밋·push는 수행하지 않았습니다.
+
+[6] 프로젝트 개요 PPT 제작
+- SourceAssets/Docs/GothicChapel_Project_Overview.pptx (16:9, 8장)를 만들었습니다.
+- 구성: 표지, 프로젝트 개요, 공간 구성(3 Bay), 블록아웃 결과, 제작 범위, 아트 디렉션·재질 기준, 범위 관리, 제작 우선순위.
+- 내용 출처: README.md, SourceAssets/Blockout/README.md, 이 작업 기록. 이미지: Blockout_Exterior.png, Blockout_Interior.png.
+- 생성 스크립트: SourceAssets/Docs/build_overview_pptx.js (pptxgenjs).
+- PowerPoint에서 열어 전체 슬라이드를 이미지로 내보내 레이아웃을 확인했습니다.
+
+[7] 노션 예전 범위 내용 정리
+- 기준: 제작 1~3의 최종 범위(13–14세기 영국계 고딕, 단일 본당 3 Bay, 6×12m)
+- 수정한 페이지: 메인 페이지(개요·목적·확정 범위), 제작 4, 제작 5, 제작 10, 제작 11(본문과 '설명' 속성), 제작 2.1(1차 결론 문구·진행 상태)
+- 바꾼 내용: '후기 고딕 측랑 반복 구획' → 단일 본당 3 Bay, 기둥·아치 위주 모듈 목록 → 제작 1 Asset List, 임시 침상 → 벤치 A/B·촛대·헤진 천·짐꾸러미·상자, AI 도구 1순위 Meshy → 1·2차 종합 잠정 1순위 Tripo
+- 메인 페이지는 다시 읽어 반영을 확인했습니다. 데이터베이스 '설명' 속성은 본문 수정 명령으로는 바뀌지 않아 속성 수정으로 따로 반영했습니다.
+
+[8] 프로젝트 개요 PPT 노션 내용으로 재구성
+- GothicChapel_Project_Overview.pptx를 8장 → 15장으로 재구성했습니다.
+- 흐름: 표지 → 개요 → 콘셉트·게임 레퍼런스 → 공간 구성 → 설계 규격 → Asset List → 범위 관리 → AI 모델링 비교 → Bay 생성 시스템 → 블록아웃 결과 → 아트 디렉션·PBR → Hero·피난 흔적 → 제작 로드맵(15단계) → 순서 근거 → 최종 결과물·다음 단계
+- 출처: 노션 메인, 제작 1·2(12-5~12-15)·2.1·2.2·3~14. 레퍼런스 게임 이미지는 저작권 때문에 넣지 않고 적용 기준만 표로 정리했습니다.
+- 생성 스크립트 SourceAssets/Docs/build_overview_pptx.js를 새 버전으로 교체했습니다.
+- PowerPoint로 전체 15장을 이미지로 내보내 레이아웃을 확인했습니다.
+
+[9] PPT에 제작 의도·문제 해결 사례 추가
+- GothicChapel_Project_Overview_v2.pptx (20장)를 만들었습니다. 원본 파일이 PowerPoint에서 열려 있어 덮어쓰지 않고 새 파일로 저장했습니다.
+- 추가: 03 제작 의도(건물이 주인공 / 플레이 가능한 공간 / 학습과 제작 병행)
+- 추가: CASE 01 범위 재정의, CASE 02 AI 도입(반복 모듈 비용), CASE 03 Bay 생성 시스템(배치 비용), CASE 04 블록아웃 검수 문제 4건
+- 각 CASE는 시도 → 발견한 문제 → 해결·계획 구조이며, 근거 문서를 슬라이드 하단에 표기했습니다.
+- 생성 스크립트 SourceAssets/Docs/build_overview_pptx.js를 새 버전으로 교체했습니다 (출력: _v2.pptx).
+
+[10] CASE 03을 설계 판단 사례로 수정
+- 사용자 확인: Bay 생성 시스템은 처음부터 모듈 조합 방식으로 설계했음 (손상 상태 방식을 먼저 시도한 것이 아님).
+- CASE 03 칸 이름을 '시도 / 고려한 점 / 설계 · 계획'으로 바꾸고, 가운데 칸을 설계 이유(한 Bay 안에서도 부재별 파손 정도가 다름)로 고쳤습니다.
+- _v2.pptx가 열려 있어 임시 폴더에 먼저 만든 뒤, 파일을 닫은 후 텍스트 비교로 다른 편집이 없음을 확인하고 _v2.pptx에 반영했습니다.
+
+[11] 이전 PPT 삭제
+- 사용자 요청으로 이전 15장 버전 SourceAssets/Docs/GothicChapel_Project_Overview.pptx를 휴지통으로 옮겼습니다.
+- 남은 PPT: SourceAssets/Docs/GothicChapel_Project_Overview_v2.pptx (20장)
