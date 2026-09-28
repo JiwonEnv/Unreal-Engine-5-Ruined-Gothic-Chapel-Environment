@@ -1,0 +1,15 @@
+import unreal,os,json
+root=os.path.join(unreal.Paths.project_dir(),'SourceAssets/Blockout')
+exec(compile(open(os.path.join(root,'Scripts/verify_blockout.py'),encoding='utf-8-sig').read(),'verify_blockout.py','exec'))
+ea=unreal.get_editor_subsystem(unreal.EditorActorSubsystem)
+actors=ea.get_all_level_actors()
+cam=next(a for a in actors if a.get_actor_label()=='BO_Camera_Exterior_Overview')
+unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem).set_level_viewport_camera_info(cam.get_actor_location(),cam.get_actor_rotation())
+unreal.get_editor_subsystem(unreal.LevelEditorSubsystem).editor_set_game_view(True)
+unreal.get_editor_subsystem(unreal.LevelEditorSubsystem).save_current_level()
+unreal.AutomationLibrary.take_high_res_screenshot(1600,1000,os.path.join(root,'Blockout_Exterior.png'),camera=cam,delay=1.0)
+with open(os.path.join(root,'verification.json')) as f:report=json.load(f)
+report['all_sweeps_clear']=all(not r['blocking_hit'] for r in report['aisle_capsule_sweeps'])
+report['saved_map']='/Game/GothicChapel/Levels/Main/GothicChapel_Main'
+with open(os.path.join(root,'verification.json'),'w') as f:json.dump(report,f,indent=2)
+unreal.log('BLOCKOUT_FINAL_COMPLETE clear_sweeps='+str(report['all_sweeps_clear']))

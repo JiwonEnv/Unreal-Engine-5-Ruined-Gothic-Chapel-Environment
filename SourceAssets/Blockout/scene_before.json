@@ -1,0 +1,152 @@
+[
+  {
+    "label": "PlayerStart",
+    "class": "PlayerStart",
+    "location": [
+      0.0,
+      0.0,
+      120.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "folder": "Setting"
+  },
+  {
+    "label": "SkyLight",
+    "class": "SkyLight",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "folder": "Setting"
+  },
+  {
+    "label": "DirectionalLight",
+    "class": "DirectionalLight",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      2.5,
+      2.5,
+      2.5
+    ],
+    "folder": "Setting"
+  },
+  {
+    "label": "SkyAtmosphere",
+    "class": "SkyAtmosphere",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "folder": "Setting"
+  },
+  {
+    "label": "VolumetricCloud",
+    "class": "VolumetricCloud",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "folder": "Setting"
+  },
+  {
+    "label": "ExponentialHeightFog",
+    "class": "ExponentialHeightFog",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "folder": "Setting"
+  },
+  {
+    "label": "Landscape",
+    "class": "Landscape",
+    "location": [
+      -25200.0,
+      -25200.0,
+      0.0
+    ],
+    "scale": [
+      100.0,
+      100.0,
+      100.0
+    ],
+    "folder": "Setting"
+  },
+  {
+    "label": "Cube",
+    "class": "StaticMeshActor",
+    "location": [
+      240.0,
+      70.0,
+      10.0
+    ],
+    "scale": [
+      12.0,
+      6.0,
+      0.2
+    ],
+    "folder": "Blockout"
+  },
+  {
+    "label": "Cube2_Pivot",
+    "class": "Actor",
+    "location": [
+      -4.014904322957591e-05,
+      -4.7866528461781854e-05,
+      470.00011206139584
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "folder": "None"
+  },
+  {
+    "label": "Cube2",
+    "class": "StaticMeshActor",
+    "location": [
+      -4.014904322957591e-05,
+      -4.7866528461781854e-05,
+      470.00011206139584
+    ],
+    "scale": [
+      4.0,
+      0.6,
+      5.5
+    ],
+    "folder": "None"
+  }
+]

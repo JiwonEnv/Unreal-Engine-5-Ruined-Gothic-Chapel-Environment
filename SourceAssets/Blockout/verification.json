@@ -1,0 +1,4038 @@
+{
+  "actors": [
+    {
+      "label": "PlayerStart",
+      "location": [
+        115.0,
+        0.0,
+        120.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8560) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        171.0,
+        0.0,
+        120.0
+      ],
+      "bounds_half": [
+        184.0,
+        128.0,
+        128.0
+      ],
+      "hidden_editor": false
+    },
+    {
+      "label": "SkyLight",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F86F0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_half": [
+        256.0,
+        256.0,
+        256.0
+      ],
+      "hidden_editor": false
+    },
+    {
+      "label": "DirectionalLight",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8560) {pitch: -31.000000, yaw: -14.000000, roll: -105.000000}>",
+      "bounds_centre": [
+        249.512,
+        -62.21,
+        -154.511
+      ],
+      "bounds_half": [
+        406.135,
+        317.504,
+        364.474
+      ],
+      "hidden_editor": false
+    },
+    {
+      "label": "SkyAtmosphere",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F82E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        56.0,
+        0.0,
+        0.0
+      ],
+      "bounds_half": [
+        184.0,
+        128.0,
+        128.0
+      ],
+      "hidden_editor": false
+    },
+    {
+      "label": "VolumetricCloud",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8920) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_half": [
+        128.0,
+        128.0,
+        128.0
+      ],
+      "hidden_editor": false
+    },
+    {
+      "label": "ExponentialHeightFog",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F82E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_half": [
+        128.0,
+        128.0,
+        128.0
+      ],
+      "hidden_editor": false
+    },
+    {
+      "label": "Landscape",
+      "location": [
+        -25200.0,
+        -25200.0,
+        0.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8560) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_half": [
+        25200.0,
+        25200.0,
+        100.0
+      ],
+      "hidden_editor": false
+    },
+    {
+      "label": "Cube",
+      "location": [
+        240.0,
+        70.0,
+        10.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8880) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        240.0,
+        70.0,
+        10.0
+      ],
+      "bounds_half": [
+        600.0,
+        300.0,
+        10.0
+      ],
+      "hidden_editor": true,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6BB40) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "Cube2_Pivot",
+      "location": [
+        -0.0,
+        -0.0,
+        470.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8920) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        -0.0,
+        -0.0,
+        470.0
+      ],
+      "bounds_half": [
+        128.0,
+        128.0,
+        128.0
+      ],
+      "hidden_editor": true
+    },
+    {
+      "label": "Cube2",
+      "location": [
+        -0.0,
+        -0.0,
+        470.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F82E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        -0.0,
+        -0.0,
+        470.0
+      ],
+      "bounds_half": [
+        200.0,
+        30.0,
+        275.0
+      ],
+      "hidden_editor": true,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6EF00) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Floor_Bay1_400x600",
+      "location": [
+        200.0,
+        0.0,
+        10.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8920) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        200.0,
+        0.0,
+        10.0
+      ],
+      "bounds_half": [
+        200.0,
+        300.0,
+        10.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB66B80) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Floor_Bay2_400x600",
+      "location": [
+        600.0,
+        0.0,
+        10.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F82E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        600.0,
+        0.0,
+        10.0
+      ],
+      "bounds_half": [
+        200.0,
+        300.0,
+        10.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6ECC0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Floor_Bay3_400x600",
+      "location": [
+        1000.0,
+        0.0,
+        10.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8920) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1000.0,
+        0.0,
+        10.0
+      ],
+      "bounds_half": [
+        200.0,
+        300.0,
+        10.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6CE00) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Foundation_-1",
+      "location": [
+        600.0,
+        -330.0,
+        10.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F82E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        600.0,
+        -330.0,
+        10.0
+      ],
+      "bounds_half": [
+        660.0,
+        30.0,
+        10.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB631C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Foundation_1",
+      "location": [
+        600.0,
+        330.0,
+        10.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8A60) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        600.0,
+        330.0,
+        10.0
+      ],
+      "bounds_half": [
+        660.0,
+        30.0,
+        10.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB690C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Foundation_West",
+      "location": [
+        -30.0,
+        0.0,
+        10.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F82E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        -30.0,
+        0.0,
+        10.0
+      ],
+      "bounds_half": [
+        30.0,
+        300.0,
+        10.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB65900) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Foundation_East",
+      "location": [
+        1230.0,
+        0.0,
+        10.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8A60) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1230.0,
+        0.0,
+        10.0
+      ],
+      "bounds_half": [
+        30.0,
+        300.0,
+        10.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB63100) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_North_Bay1_Ruined",
+      "location": [
+        0.0,
+        300.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F82E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        200.0,
+        330.0,
+        247.5
+      ],
+      "bounds_half": [
+        200.0,
+        30.0,
+        227.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB68540) {min: {x: 0.000000, y: 0.000000, z: 0.000000}, max: {x: 400.000000, y: 60.000000, z: 455.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_North_Bay2_Partial",
+      "location": [
+        400.0,
+        300.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8A60) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        600.0,
+        330.0,
+        295.0
+      ],
+      "bounds_half": [
+        200.0,
+        30.0,
+        275.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB677C0) {min: {x: 0.000000, y: 0.000000, z: 0.000000}, max: {x: 400.000000, y: 60.000000, z: 550.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_North_Bay3_Intact",
+      "location": [
+        800.0,
+        300.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F82E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1000.0,
+        330.0,
+        295.0
+      ],
+      "bounds_half": [
+        200.0,
+        30.0,
+        275.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6D800) {min: {x: 0.000000, y: 0.000000, z: 0.000000}, max: {x: 400.000000, y: 60.000000, z: 550.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_North_Lancet_2",
+      "location": [
+        600.0,
+        300.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8A60) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        600.0,
+        303.0,
+        326.0
+      ],
+      "bounds_half": [
+        62.0,
+        9.0,
+        146.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB66CC0) {min: {x: -62.000000, y: -6.000000, z: 160.000000}, max: {x: 62.000000, y: 12.000000, z: 452.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_North_Lancet_3",
+      "location": [
+        1000.0,
+        300.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F82E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1000.0,
+        303.0,
+        326.0
+      ],
+      "bounds_half": [
+        62.0,
+        9.0,
+        146.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6C740) {min: {x: -62.000000, y: -6.000000, z: 160.000000}, max: {x: 62.000000, y: 12.000000, z: 452.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_South_Bay1_Ruined",
+      "location": [
+        0.0,
+        -360.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8A60) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        200.0,
+        -330.0,
+        215.0
+      ],
+      "bounds_half": [
+        200.0,
+        30.0,
+        195.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB69A00) {min: {x: 0.000000, y: 0.000000, z: 0.000000}, max: {x: 400.000000, y: 60.000000, z: 390.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_South_Bay2_Partial",
+      "location": [
+        400.0,
+        -360.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F82E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        600.0,
+        -330.0,
+        295.0
+      ],
+      "bounds_half": [
+        200.0,
+        30.0,
+        275.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB66540) {min: {x: 0.000000, y: 0.000000, z: 0.000000}, max: {x: 400.000000, y: 60.000000, z: 550.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_South_Bay3_Intact",
+      "location": [
+        800.0,
+        -360.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8A60) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1000.0,
+        -330.0,
+        295.0
+      ],
+      "bounds_half": [
+        200.0,
+        30.0,
+        275.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB69280) {min: {x: 0.000000, y: 0.000000, z: 0.000000}, max: {x: 400.000000, y: 60.000000, z: 550.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_South_Lancet_2",
+      "location": [
+        600.0,
+        -300.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F82E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        600.0,
+        -297.0,
+        326.0
+      ],
+      "bounds_half": [
+        62.0,
+        9.0,
+        146.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB66800) {min: {x: -62.000000, y: -6.000000, z: 160.000000}, max: {x: 62.000000, y: 12.000000, z: 452.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_South_Lancet_3",
+      "location": [
+        1000.0,
+        -300.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8A60) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1000.0,
+        -297.0,
+        326.0
+      ],
+      "bounds_half": [
+        62.0,
+        9.0,
+        146.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB650C0) {min: {x: -62.000000, y: -6.000000, z: 160.000000}, max: {x: 62.000000, y: 12.000000, z: 452.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_East_Gable_HeroOpening",
+      "location": [
+        1260.0,
+        -360.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F82E0) {pitch: 0.000000, yaw: 90.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1230.0,
+        0.0,
+        445.0
+      ],
+      "bounds_half": [
+        30.0,
+        360.0,
+        425.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB60040) {min: {x: 0.000000, y: 0.000000, z: 0.000000}, max: {x: 720.000000, y: 60.000000, z: 850.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_West_Gable_Collapsed",
+      "location": [
+        0.0,
+        -360.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8A60) {pitch: 0.000000, yaw: 90.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        -30.0,
+        0.0,
+        330.0
+      ],
+      "bounds_half": [
+        30.0,
+        360.0,
+        310.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB604C0) {min: {x: 0.000000, y: 0.000000, z: 0.000000}, max: {x: 720.000000, y: 60.000000, z: 620.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_West_Portal_BrokenArch",
+      "location": [
+        0.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F82E0) {pitch: 0.000000, yaw: 90.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        -5.0,
+        0.0,
+        190.0
+      ],
+      "bounds_half": [
+        11.0,
+        100.0,
+        170.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB67180) {min: {x: -100.000000, y: -6.000000, z: 0.000000}, max: {x: 100.000000, y: 16.000000, z: 340.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_East_Hero_Arch",
+      "location": [
+        1200.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8A60) {pitch: 0.000000, yaw: 90.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1195.5,
+        0.0,
+        449.0
+      ],
+      "bounds_half": [
+        10.5,
+        138.0,
+        209.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6CB80) {min: {x: -138.000000, y: -6.000000, z: 220.000000}, max: {x: 138.000000, y: 15.000000, z: 638.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_East_ThreeLight_Tracery",
+      "location": [
+        1220.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F82E0) {pitch: 0.000000, yaw: 90.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1217.0,
+        0.0,
+        398.5
+      ],
+      "bounds_half": [
+        9.0,
+        120.0,
+        158.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6D980) {min: {x: -120.000000, y: -6.000000, z: 220.000000}, max: {x: 120.000000, y: 12.000000, z: 537.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Hero_Glass_Placeholder_0",
+      "location": [
+        1240.0,
+        -80.0,
+        360.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8A60) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1240.0,
+        -80.0,
+        360.0
+      ],
+      "bounds_half": [
+        2.5,
+        30.0,
+        120.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB65940) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Hero_Glass_Placeholder_1",
+      "location": [
+        1240.0,
+        0.0,
+        360.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F82E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1240.0,
+        0.0,
+        360.0
+      ],
+      "bounds_half": [
+        2.5,
+        30.0,
+        120.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB68840) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Hero_Glass_Placeholder_2",
+      "location": [
+        1240.0,
+        80.0,
+        360.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8A60) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1240.0,
+        80.0,
+        360.0
+      ],
+      "bounds_half": [
+        2.5,
+        30.0,
+        120.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB66AC0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Pier_North_0",
+      "location": [
+        0.0,
+        282.5,
+        145.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        0.0,
+        282.5,
+        145.0
+      ],
+      "bounds_half": [
+        30.0,
+        17.5,
+        125.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB601C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Pier_Base_North_0",
+      "location": [
+        0.0,
+        278.0,
+        35.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8A60) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        0.0,
+        278.0,
+        35.0
+      ],
+      "bounds_half": [
+        38.0,
+        22.0,
+        15.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB62840) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Buttress_Remnant_North",
+      "location": [
+        0.0,
+        405.0,
+        145.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        0.0,
+        405.0,
+        145.0
+      ],
+      "bounds_half": [
+        40.0,
+        45.0,
+        125.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6B500) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Pier_South_0",
+      "location": [
+        0.0,
+        -282.5,
+        110.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F80B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        0.0,
+        -282.5,
+        110.0
+      ],
+      "bounds_half": [
+        30.0,
+        17.5,
+        90.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB62100) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Pier_Base_South_0",
+      "location": [
+        0.0,
+        -278.0,
+        35.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        0.0,
+        -278.0,
+        35.0
+      ],
+      "bounds_half": [
+        38.0,
+        22.0,
+        15.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6EA80) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Buttress_Remnant_South",
+      "location": [
+        0.0,
+        -405.0,
+        145.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F80B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        0.0,
+        -405.0,
+        145.0
+      ],
+      "bounds_half": [
+        40.0,
+        45.0,
+        125.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB65B00) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Pier_North_400",
+      "location": [
+        400.0,
+        282.5,
+        230.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        400.0,
+        282.5,
+        230.0
+      ],
+      "bounds_half": [
+        30.0,
+        17.5,
+        210.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6D180) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Pier_Base_North_400",
+      "location": [
+        400.0,
+        278.0,
+        35.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F80B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        400.0,
+        278.0,
+        35.0
+      ],
+      "bounds_half": [
+        38.0,
+        22.0,
+        15.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB648C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Capital_North_400",
+      "location": [
+        400.0,
+        275.0,
+        429.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        400.0,
+        275.0,
+        429.0
+      ],
+      "bounds_half": [
+        37.5,
+        25.0,
+        11.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6CB40) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Buttress_North_400",
+      "location": [
+        400.0,
+        360.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F80B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        400.0,
+        410.0,
+        272.5
+      ],
+      "bounds_half": [
+        40.0,
+        50.0,
+        252.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6D000) {min: {x: -40.000000, y: 0.000000, z: 0.000000}, max: {x: 40.000000, y: 100.000000, z: 505.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Pier_South_400",
+      "location": [
+        400.0,
+        -282.5,
+        230.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        400.0,
+        -282.5,
+        230.0
+      ],
+      "bounds_half": [
+        30.0,
+        17.5,
+        210.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB64A80) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Pier_Base_South_400",
+      "location": [
+        400.0,
+        -278.0,
+        35.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F80B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        400.0,
+        -278.0,
+        35.0
+      ],
+      "bounds_half": [
+        38.0,
+        22.0,
+        15.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB66040) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Capital_South_400",
+      "location": [
+        400.0,
+        -275.0,
+        429.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        400.0,
+        -275.0,
+        429.0
+      ],
+      "bounds_half": [
+        37.5,
+        25.0,
+        11.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6D380) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Buttress_South_400",
+      "location": [
+        400.0,
+        -360.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F80B0) {pitch: 0.000000, yaw: 180.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        400.0,
+        -410.0,
+        272.5
+      ],
+      "bounds_half": [
+        40.0,
+        50.0,
+        252.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB60940) {min: {x: -40.000000, y: 0.000000, z: 0.000000}, max: {x: 40.000000, y: 100.000000, z: 505.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Pier_North_800",
+      "location": [
+        800.0,
+        282.5,
+        230.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        800.0,
+        282.5,
+        230.0
+      ],
+      "bounds_half": [
+        30.0,
+        17.5,
+        210.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6CE80) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Pier_Base_North_800",
+      "location": [
+        800.0,
+        278.0,
+        35.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F80B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        800.0,
+        278.0,
+        35.0
+      ],
+      "bounds_half": [
+        38.0,
+        22.0,
+        15.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB60740) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Capital_North_800",
+      "location": [
+        800.0,
+        275.0,
+        429.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        800.0,
+        275.0,
+        429.0
+      ],
+      "bounds_half": [
+        37.5,
+        25.0,
+        11.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB65DC0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Buttress_North_800",
+      "location": [
+        800.0,
+        360.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F80B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        800.0,
+        410.0,
+        272.5
+      ],
+      "bounds_half": [
+        40.0,
+        50.0,
+        252.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6DB00) {min: {x: -40.000000, y: 0.000000, z: 0.000000}, max: {x: 40.000000, y: 100.000000, z: 505.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Pier_South_800",
+      "location": [
+        800.0,
+        -282.5,
+        230.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        800.0,
+        -282.5,
+        230.0
+      ],
+      "bounds_half": [
+        30.0,
+        17.5,
+        210.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB64880) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Pier_Base_South_800",
+      "location": [
+        800.0,
+        -278.0,
+        35.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F80B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        800.0,
+        -278.0,
+        35.0
+      ],
+      "bounds_half": [
+        38.0,
+        22.0,
+        15.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB61180) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Capital_South_800",
+      "location": [
+        800.0,
+        -275.0,
+        429.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        800.0,
+        -275.0,
+        429.0
+      ],
+      "bounds_half": [
+        37.5,
+        25.0,
+        11.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6EB40) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Buttress_South_800",
+      "location": [
+        800.0,
+        -360.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F80B0) {pitch: 0.000000, yaw: 180.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        800.0,
+        -410.0,
+        272.5
+      ],
+      "bounds_half": [
+        40.0,
+        50.0,
+        252.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6A680) {min: {x: -40.000000, y: 0.000000, z: 0.000000}, max: {x: 40.000000, y: 100.000000, z: 505.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Transverse_Arch_800",
+      "location": [
+        800.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        800.0,
+        0.0,
+        592.8
+      ],
+      "bounds_half": [
+        10.0,
+        306.89,
+        154.034
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB63480) {min: {x: -10.000000, y: -306.890381, z: 418.765961}, max: {x: 10.000000, y: 306.890381, z: 726.833862}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Pier_North_1200",
+      "location": [
+        1200.0,
+        282.5,
+        230.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F80B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1200.0,
+        282.5,
+        230.0
+      ],
+      "bounds_half": [
+        30.0,
+        17.5,
+        210.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6E440) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Pier_Base_North_1200",
+      "location": [
+        1200.0,
+        278.0,
+        35.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1200.0,
+        278.0,
+        35.0
+      ],
+      "bounds_half": [
+        38.0,
+        22.0,
+        15.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6D140) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Capital_North_1200",
+      "location": [
+        1200.0,
+        275.0,
+        429.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F80B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1200.0,
+        275.0,
+        429.0
+      ],
+      "bounds_half": [
+        37.5,
+        25.0,
+        11.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB67E40) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Buttress_North_1200",
+      "location": [
+        1200.0,
+        360.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1200.0,
+        410.0,
+        272.5
+      ],
+      "bounds_half": [
+        40.0,
+        50.0,
+        252.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6EAC0) {min: {x: -40.000000, y: 0.000000, z: 0.000000}, max: {x: 40.000000, y: 100.000000, z: 505.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Pier_South_1200",
+      "location": [
+        1200.0,
+        -282.5,
+        230.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F80B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1200.0,
+        -282.5,
+        230.0
+      ],
+      "bounds_half": [
+        30.0,
+        17.5,
+        210.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB697C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Pier_Base_South_1200",
+      "location": [
+        1200.0,
+        -278.0,
+        35.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1200.0,
+        -278.0,
+        35.0
+      ],
+      "bounds_half": [
+        38.0,
+        22.0,
+        15.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB63400) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Capital_South_1200",
+      "location": [
+        1200.0,
+        -275.0,
+        429.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F80B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1200.0,
+        -275.0,
+        429.0
+      ],
+      "bounds_half": [
+        37.5,
+        25.0,
+        11.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6D400) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Buttress_South_1200",
+      "location": [
+        1200.0,
+        -360.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 180.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1200.0,
+        -410.0,
+        272.5
+      ],
+      "bounds_half": [
+        40.0,
+        50.0,
+        252.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB664C0) {min: {x: -40.000000, y: 0.000000, z: 0.000000}, max: {x: 40.000000, y: 100.000000, z: 505.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Transverse_Arch_1200",
+      "location": [
+        1200.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F80B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1200.0,
+        0.0,
+        592.8
+      ],
+      "bounds_half": [
+        10.0,
+        306.89,
+        154.034
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB67580) {min: {x: -10.000000, y: -306.890381, z: 418.765961}, max: {x: 10.000000, y: 306.890381, z: 726.833862}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Broken_Transverse_400",
+      "location": [
+        400.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        400.0,
+        0.0,
+        552.461
+      ],
+      "bounds_half": [
+        10.0,
+        306.89,
+        113.695
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB62B00) {min: {x: -10.000000, y: -306.890381, z: 418.765961}, max: {x: 10.000000, y: 306.890381, z: 646.156311}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Bay2_DiagonalRibs",
+      "location": [
+        400.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F80B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        600.0,
+        0.0,
+        591.661
+      ],
+      "bounds_half": [
+        211.626,
+        310.505,
+        155.333
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB69CC0) {min: {x: -11.626010, y: -310.505249, z: 416.327209}, max: {x: 411.626007, y: 310.505249, z: 726.993958}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Bay2_Web_1",
+      "location": [
+        400.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9AF0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        700.0,
+        45.0,
+        604.0
+      ],
+      "bounds_half": [
+        100.0,
+        255.0,
+        155.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6DF00) {min: {x: 200.000000, y: -210.000000, z: 429.000000}, max: {x: 400.000000, y: 300.000000, z: 739.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Bay2_Web_2",
+      "location": [
+        400.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8790) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        570.0,
+        150.0,
+        604.0
+      ],
+      "bounds_half": [
+        170.0,
+        150.0,
+        155.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB61700) {min: {x: 0.000000, y: 0.000000, z: 429.000000}, max: {x: 340.000000, y: 300.000000, z: 739.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Bay2_Boss",
+      "location": [
+        600.0,
+        0.0,
+        734.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        600.0,
+        0.0,
+        734.0
+      ],
+      "bounds_half": [
+        17.5,
+        17.5,
+        9.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB69AC0) {min: {x: -50.000000, y: -49.999996, z: -50.000000}, max: {x: 50.000000, y: 50.000004, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Bay3_DiagonalRibs",
+      "location": [
+        800.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8790) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1000.0,
+        0.0,
+        591.661
+      ],
+      "bounds_half": [
+        211.626,
+        310.505,
+        155.333
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB68C80) {min: {x: -11.626010, y: -310.505249, z: 416.327209}, max: {x: 411.626007, y: 310.505249, z: 726.993958}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Bay3_Web_0",
+      "location": [
+        800.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9AF0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1000.0,
+        -150.0,
+        604.0
+      ],
+      "bounds_half": [
+        200.0,
+        150.0,
+        155.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6A740) {min: {x: 0.000000, y: -300.000000, z: 429.000000}, max: {x: 400.000000, y: 0.000000, z: 739.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Bay3_Web_1",
+      "location": [
+        800.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F98C0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1100.0,
+        0.0,
+        604.0
+      ],
+      "bounds_half": [
+        100.0,
+        300.0,
+        155.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6B540) {min: {x: 200.000000, y: -300.000000, z: 429.000000}, max: {x: 400.000000, y: 300.000000, z: 739.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Bay3_Web_2",
+      "location": [
+        800.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1000.0,
+        150.0,
+        604.0
+      ],
+      "bounds_half": [
+        200.0,
+        150.0,
+        155.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB64700) {min: {x: 0.000000, y: 0.000000, z: 429.000000}, max: {x: 400.000000, y: 300.000000, z: 739.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Bay3_Web_3",
+      "location": [
+        800.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8790) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        900.0,
+        0.0,
+        604.0
+      ],
+      "bounds_half": [
+        100.0,
+        300.0,
+        155.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB61840) {min: {x: 0.000000, y: -300.000000, z: 429.000000}, max: {x: 200.000000, y: 300.000000, z: 739.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Bay3_Boss",
+      "location": [
+        1000.0,
+        0.0,
+        734.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9AF0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1000.0,
+        0.0,
+        734.0
+      ],
+      "bounds_half": [
+        17.5,
+        17.5,
+        9.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6DBC0) {min: {x: -50.000000, y: -49.999996, z: -50.000000}, max: {x: 50.000000, y: 50.000004, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Bay2_Roof_S",
+      "location": [
+        400.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F98C0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        690.0,
+        -187.5,
+        726.0
+      ],
+      "bounds_half": [
+        110.0,
+        187.5,
+        156.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB65F00) {min: {x: 180.000000, y: -375.000000, z: 550.000000}, max: {x: 400.000000, y: 0.000000, z: 862.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Bay2_Roof_N",
+      "location": [
+        400.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        630.0,
+        187.5,
+        726.0
+      ],
+      "bounds_half": [
+        170.0,
+        187.5,
+        156.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6A200) {min: {x: 60.000000, y: 0.000000, z: 550.000000}, max: {x: 400.000000, y: 375.000000, z: 862.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Bay3_Roof_S",
+      "location": [
+        800.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8790) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1000.0,
+        -187.5,
+        726.0
+      ],
+      "bounds_half": [
+        200.0,
+        187.5,
+        156.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB67540) {min: {x: 0.000000, y: -375.000000, z: 550.000000}, max: {x: 400.000000, y: 0.000000, z: 862.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Bay3_Roof_N",
+      "location": [
+        800.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9AF0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1000.0,
+        187.5,
+        726.0
+      ],
+      "bounds_half": [
+        200.0,
+        187.5,
+        156.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBFEFC260) {min: {x: 0.000000, y: 0.000000, z: 550.000000}, max: {x: 400.000000, y: 375.000000, z: 862.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Timber_Truss_800",
+      "location": [
+        800.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8790) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        800.0,
+        0.0,
+        718.5
+      ],
+      "bounds_half": [
+        9.0,
+        346.176,
+        141.365
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6A200) {min: {x: -9.000000, y: -346.176178, z: 557.135193}, max: {x: 9.000000, y: 346.176178, z: 839.864807}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Timber_Truss_1200",
+      "location": [
+        1200.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9AF0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1200.0,
+        0.0,
+        718.5
+      ],
+      "bounds_half": [
+        9.0,
+        346.176,
+        141.365
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB60E40) {min: {x: -9.000000, y: -346.176178, z: 557.135193}, max: {x: 9.000000, y: 346.176178, z: 839.864807}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Broken_Truss_Middle",
+      "location": [
+        0.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8790) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        540.374,
+        -13.906,
+        676.0
+      ],
+      "bounds_half": [
+        89.851,
+        324.018,
+        101.09
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB69800) {min: {x: 450.523193, y: -337.924255, z: 554.910278}, max: {x: 630.224243, y: 310.111450, z: 757.089722}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Altar_Step_Lower",
+      "location": [
+        1020.0,
+        0.0,
+        30.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9AF0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1020.0,
+        0.0,
+        30.0
+      ],
+      "bounds_half": [
+        150.0,
+        210.0,
+        10.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6A700) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Altar_Step_Upper",
+      "location": [
+        1060.0,
+        0.0,
+        50.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F8790) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1060.0,
+        0.0,
+        50.0
+      ],
+      "bounds_half": [
+        110.0,
+        185.0,
+        10.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB69240) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Altar_Plinth",
+      "location": [
+        1090.0,
+        0.0,
+        69.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1090.0,
+        0.0,
+        69.0
+      ],
+      "bounds_half": [
+        55.0,
+        157.5,
+        9.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB657C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Altar_Body",
+      "location": [
+        1090.0,
+        0.0,
+        113.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F97D0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1090.0,
+        0.0,
+        113.0
+      ],
+      "bounds_half": [
+        42.5,
+        137.5,
+        35.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6E680) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Altar_Tabletop_305cm",
+      "location": [
+        1085.0,
+        0.0,
+        159.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1085.0,
+        0.0,
+        159.0
+      ],
+      "bounds_half": [
+        57.5,
+        152.5,
+        11.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB68C00) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Altar_Pilaster_-137",
+      "location": [
+        1041.0,
+        -137.0,
+        114.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F97D0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1041.0,
+        -137.0,
+        114.0
+      ],
+      "bounds_half": [
+        9.0,
+        11.0,
+        36.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB63440) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Altar_Pilaster_137",
+      "location": [
+        1041.0,
+        137.0,
+        114.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1041.0,
+        137.0,
+        114.0
+      ],
+      "bounds_half": [
+        9.0,
+        11.0,
+        36.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB61700) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Altar_BlindArcade_-84",
+      "location": [
+        1044.0,
+        -84.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F97D0) {pitch: 0.000000, yaw: 90.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1045.0,
+        -84.0,
+        115.5
+      ],
+      "bounds_half": [
+        5.0,
+        37.0,
+        34.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6D9C0) {min: {x: -37.000000, y: -6.000000, z: 61.000000}, max: {x: 37.000000, y: 4.000000, z: 130.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Altar_BlindArcade_0",
+      "location": [
+        1044.0,
+        0.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: 0.000000, yaw: 90.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1045.0,
+        0.0,
+        115.5
+      ],
+      "bounds_half": [
+        5.0,
+        37.0,
+        34.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB61240) {min: {x: -37.000000, y: -6.000000, z: 61.000000}, max: {x: 37.000000, y: 4.000000, z: 130.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Altar_BlindArcade_84",
+      "location": [
+        1044.0,
+        84.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F97D0) {pitch: 0.000000, yaw: 90.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1045.0,
+        84.0,
+        115.5
+      ],
+      "bounds_half": [
+        5.0,
+        37.0,
+        34.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB61880) {min: {x: -37.000000, y: -6.000000, z: 61.000000}, max: {x: 37.000000, y: 4.000000, z: 130.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Bellcote_Left_Remnant",
+      "location": [
+        -30.0,
+        -198.0,
+        660.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        -30.0,
+        -198.0,
+        660.0
+      ],
+      "bounds_half": [
+        30.0,
+        20.0,
+        45.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB664C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Bellcote_Right_Broken",
+      "location": [
+        -30.0,
+        -130.0,
+        627.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F97D0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        -30.0,
+        -130.0,
+        627.0
+      ],
+      "bounds_half": [
+        30.0,
+        15.0,
+        18.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6D400) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Bench_1",
+      "location": [
+        570.0,
+        -195.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9BE0) {pitch: 0.000000, yaw: -4.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        570.0,
+        -195.0,
+        64.0
+      ],
+      "bounds_half": [
+        27.876,
+        86.328,
+        44.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB60540) {min: {x: -22.000000, y: -85.000000, z: 0.000000}, max: {x: 22.000000, y: 85.000000, z: 88.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Bench_2",
+      "location": [
+        720.0,
+        194.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F90A0) {pitch: 0.000000, yaw: 6.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        720.0,
+        194.0,
+        51.0
+      ],
+      "bounds_half": [
+        30.764,
+        86.834,
+        31.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB697C0) {min: {x: -22.000000, y: -85.000000, z: 0.000000}, max: {x: 22.000000, y: 85.000000, z: 62.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Bench_3",
+      "location": [
+        855.0,
+        -190.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: 0.000000, yaw: 3.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        855.0,
+        -190.0,
+        64.0
+      ],
+      "bounds_half": [
+        26.418,
+        86.035,
+        44.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB65540) {min: {x: -22.000000, y: -85.000000, z: 0.000000}, max: {x: 22.000000, y: 85.000000, z: 88.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Supply_Crate",
+      "location": [
+        815.0,
+        255.0,
+        48.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F97D0) {pitch: 0.000000, yaw: 8.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        815.0,
+        255.0,
+        48.0
+      ],
+      "bounds_half": [
+        36.359,
+        34.231,
+        28.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB649C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Refuge_Bundle",
+      "location": [
+        755.0,
+        258.0,
+        42.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        755.0,
+        258.0,
+        42.0
+      ],
+      "bounds_half": [
+        35.0,
+        23.0,
+        20.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6C4C0) {min: {x: -50.000000, y: -49.999996, z: -50.000000}, max: {x: 50.000000, y: 50.000004, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Folded_Cloth",
+      "location": [
+        1070.0,
+        -102.0,
+        174.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F90A0) {pitch: 0.000000, yaw: -6.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1070.0,
+        -102.0,
+        174.0
+      ],
+      "bounds_half": [
+        37.026,
+        48.151,
+        3.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB65D00) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Candle_Base_-155",
+      "location": [
+        1090.0,
+        -155.0,
+        67.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1090.0,
+        -155.0,
+        67.0
+      ],
+      "bounds_half": [
+        12.5,
+        12.5,
+        7.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB63C80) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Candle_Stem_-155",
+      "location": [
+        1090.0,
+        -155.0,
+        101.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F90A0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1090.0,
+        -155.0,
+        101.0
+      ],
+      "bounds_half": [
+        3.5,
+        3.5,
+        30.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB65340) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Candle_Base_155",
+      "location": [
+        1090.0,
+        155.0,
+        67.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1090.0,
+        155.0,
+        67.0
+      ],
+      "bounds_half": [
+        12.5,
+        12.5,
+        7.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB629C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Candle_Stem_155",
+      "location": [
+        1090.0,
+        155.0,
+        101.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F90A0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        1090.0,
+        155.0,
+        101.0
+      ],
+      "bounds_half": [
+        3.5,
+        3.5,
+        30.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB688C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_00",
+      "location": [
+        236.701,
+        -152.666,
+        31.555
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: -19.264275, yaw: 2.813511, roll: 5.530927}>",
+      "bounds_centre": [
+        236.701,
+        -152.666,
+        31.555
+      ],
+      "bounds_half": [
+        18.125,
+        27.652,
+        17.521
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB63E00) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_01",
+      "location": [
+        412.632,
+        181.104,
+        36.672
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 17.421375, yaw: 75.717216, roll: 1.225955}>",
+      "bounds_centre": [
+        412.632,
+        181.104,
+        36.672
+      ],
+      "bounds_half": [
+        28.815,
+        25.093,
+        20.99
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6C100) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_02",
+      "location": [
+        149.127,
+        -132.793,
+        27.421
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: -13.467710, yaw: 30.832113, roll: 14.823152}>",
+      "bounds_centre": [
+        149.127,
+        -132.793,
+        27.421
+      ],
+      "bounds_half": [
+        30.59,
+        31.188,
+        17.562
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB644C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_03",
+      "location": [
+        76.283,
+        -205.914,
+        36.493
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F90A0) {pitch: 4.878601, yaw: -174.196762, roll: 13.867126}>",
+      "bounds_centre": [
+        76.283,
+        -205.914,
+        36.493
+      ],
+      "bounds_half": [
+        21.919,
+        25.381,
+        22.408
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6A840) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_04",
+      "location": [
+        -20.373,
+        376.225,
+        30.333
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: -0.042669, yaw: 26.330107, roll: 11.347211}>",
+      "bounds_centre": [
+        -20.373,
+        376.225,
+        30.333
+      ],
+      "bounds_half": [
+        23.874,
+        25.198,
+        13.703
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6B680) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_05",
+      "location": [
+        247.961,
+        357.182,
+        37.723
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 17.102127, yaw: -163.505753, roll: -11.539612}>",
+      "bounds_centre": [
+        247.961,
+        357.182,
+        37.723
+      ],
+      "bounds_half": [
+        24.151,
+        22.296,
+        24.263
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB66FC0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_06",
+      "location": [
+        346.274,
+        -216.322,
+        28.443
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: -16.643951, yaw: -114.427406, roll: -2.846359}>",
+      "bounds_centre": [
+        346.274,
+        -216.322,
+        28.443
+      ],
+      "bounds_half": [
+        21.693,
+        27.47,
+        15.295
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB62580) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_07",
+      "location": [
+        283.595,
+        -290.797,
+        37.522
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F90A0) {pitch: -15.278131, yaw: 35.960506, roll: 9.637809}>",
+      "bounds_centre": [
+        283.595,
+        -290.797,
+        37.522
+      ],
+      "bounds_half": [
+        28.77,
+        29.681,
+        24.981
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB63E80) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_08",
+      "location": [
+        122.853,
+        329.185,
+        28.6
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: -1.305548, yaw: 20.072426, roll: -9.887049}>",
+      "bounds_centre": [
+        122.853,
+        329.185,
+        28.6
+      ],
+      "bounds_half": [
+        17.971,
+        19.044,
+        11.209
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB66480) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_09",
+      "location": [
+        313.711,
+        -134.445,
+        37.291
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 9.117307, yaw: 42.490585, roll: -13.959149}>",
+      "bounds_centre": [
+        313.711,
+        -134.445,
+        37.291
+      ],
+      "bounds_half": [
+        27.77,
+        30.388,
+        23.641
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6AAC0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_10",
+      "location": [
+        404.653,
+        -322.336,
+        29.176
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: -3.310928, yaw: -176.133545, roll: 13.465073}>",
+      "bounds_centre": [
+        404.653,
+        -322.336,
+        29.176
+      ],
+      "bounds_half": [
+        25.21,
+        28.894,
+        16.27
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB60140) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_11",
+      "location": [
+        193.709,
+        322.682,
+        35.231
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F90A0) {pitch: -6.599874, yaw: 3.156403, roll: 8.251993}>",
+      "bounds_centre": [
+        193.709,
+        322.682,
+        35.231
+      ],
+      "bounds_half": [
+        16.899,
+        18.979,
+        18.911
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB60CC0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_12",
+      "location": [
+        -148.455,
+        -215.209,
+        32.924
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: 7.386047, yaw: -168.067154, roll: -12.061981}>",
+      "bounds_centre": [
+        -148.455,
+        -215.209,
+        32.924
+      ],
+      "bounds_half": [
+        30.251,
+        20.512,
+        18.631
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB69BC0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_13",
+      "location": [
+        201.434,
+        308.54,
+        32.142
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: -19.074066, yaw: -173.913696, roll: 14.585312}>",
+      "bounds_centre": [
+        201.434,
+        308.54,
+        32.142
+      ],
+      "bounds_half": [
+        18.431,
+        26.492,
+        20.293
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB684C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_14",
+      "location": [
+        -110.221,
+        282.026,
+        31.397
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: -4.325679, yaw: 27.833069, roll: -12.178952}>",
+      "bounds_centre": [
+        -110.221,
+        282.026,
+        31.397
+      ],
+      "bounds_half": [
+        24.737,
+        26.624,
+        16.529
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB60640) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_15",
+      "location": [
+        -137.132,
+        208.899,
+        31.122
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F90A0) {pitch: -1.856384, yaw: 3.013254, roll: -14.354892}>",
+      "bounds_centre": [
+        -137.132,
+        208.899,
+        31.122
+      ],
+      "bounds_half": [
+        21.106,
+        21.904,
+        16.053
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6AD00) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_16",
+      "location": [
+        431.435,
+        -203.73,
+        28.032
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: -7.134872, yaw: -153.194702, roll: -14.221252}>",
+      "bounds_centre": [
+        431.435,
+        -203.73,
+        28.032
+      ],
+      "bounds_half": [
+        22.093,
+        24.645,
+        14.194
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB67AC0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_17",
+      "location": [
+        156.204,
+        257.297,
+        38.993
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 11.567169, yaw: -127.405037, roll: 2.822937}>",
+      "bounds_centre": [
+        156.204,
+        257.297,
+        38.993
+      ],
+      "bounds_half": [
+        27.719,
+        30.528,
+        24.709
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6B2C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_18",
+      "location": [
+        319.245,
+        219.833,
+        38.332
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: -16.253670, yaw: 23.502457, roll: -3.042581}>",
+      "bounds_centre": [
+        319.245,
+        219.833,
+        38.332
+      ],
+      "bounds_half": [
+        37.284,
+        30.598,
+        26.351
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB64100) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_19",
+      "location": [
+        135.586,
+        -166.067,
+        28.889
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F90A0) {pitch: 11.474674, yaw: 47.567730, roll: -10.582671}>",
+      "bounds_centre": [
+        135.586,
+        -166.067,
+        28.889
+      ],
+      "bounds_half": [
+        24.221,
+        25.875,
+        15.105
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB66D00) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_20",
+      "location": [
+        194.217,
+        -227.217,
+        38.906
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: -3.644089, yaw: -144.976303, roll: -1.264221}>",
+      "bounds_centre": [
+        194.217,
+        -227.217,
+        38.906
+      ],
+      "bounds_half": [
+        24.688,
+        24.871,
+        20.253
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB66580) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_21",
+      "location": [
+        127.572,
+        -378.473,
+        37.713
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: -5.459127, yaw: 73.402901, roll: -0.528948}>",
+      "bounds_centre": [
+        127.572,
+        -378.473,
+        37.713
+      ],
+      "bounds_half": [
+        24.737,
+        28.038,
+        19.911
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6D640) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_22",
+      "location": [
+        -23.98,
+        -345.068,
+        38.012
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: 9.818054, yaw: -153.209442, roll: 13.184082}>",
+      "bounds_centre": [
+        -23.98,
+        -345.068,
+        38.012
+      ],
+      "bounds_half": [
+        29.814,
+        28.895,
+        25.144
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6EFC0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_23",
+      "location": [
+        435.135,
+        -356.258,
+        29.081
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F90A0) {pitch: -0.549988, yaw: -115.576164, roll: 7.455139}>",
+      "bounds_centre": [
+        435.135,
+        -356.258,
+        29.081
+      ],
+      "bounds_half": [
+        32.38,
+        30.159,
+        12.437
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB62540) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_24",
+      "location": [
+        146.979,
+        -326.587,
+        35.097
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: 14.998657, yaw: -112.179779, roll: 13.778900}>",
+      "bounds_centre": [
+        146.979,
+        -326.587,
+        35.097
+      ],
+      "bounds_half": [
+        27.979,
+        33.136,
+        24.744
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6BB80) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_25",
+      "location": [
+        -155.096,
+        343.643,
+        28.595
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: -1.239175, yaw: 8.115939, roll: -8.209332}>",
+      "bounds_centre": [
+        -155.096,
+        343.643,
+        28.595
+      ],
+      "bounds_half": [
+        15.693,
+        18.916,
+        11.101
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB63DC0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_26",
+      "location": [
+        22.923,
+        -165.942,
+        33.262
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: 10.921449, yaw: 30.260523, roll: -14.279568}>",
+      "bounds_centre": [
+        22.923,
+        -165.942,
+        33.262
+      ],
+      "bounds_half": [
+        23.593,
+        23.372,
+        19.219
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6CA00) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_27",
+      "location": [
+        360.434,
+        246.174,
+        34.471
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F90A0) {pitch: -17.977489, yaw: 79.915421, roll: 3.231894}>",
+      "bounds_centre": [
+        360.434,
+        246.174,
+        34.471
+      ],
+      "bounds_half": [
+        17.743,
+        33.168,
+        23.202
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6B040) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_28",
+      "location": [
+        250.628,
+        -334.119,
+        36.702
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: -10.562393, yaw: -92.087898, roll: -12.615799}>",
+      "bounds_centre": [
+        250.628,
+        -334.119,
+        36.702
+      ],
+      "bounds_half": [
+        14.304,
+        22.374,
+        21.698
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB66540) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_29",
+      "location": [
+        132.031,
+        253.778,
+        30.963
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: -7.558182, yaw: -122.419487, roll: -10.739670}>",
+      "bounds_centre": [
+        132.031,
+        253.778,
+        30.963
+      ],
+      "bounds_half": [
+        25.481,
+        28.316,
+        16.181
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6D800) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_30",
+      "location": [
+        175.624,
+        -369.858,
+        37.775
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: 8.772381, yaw: 34.872868, roll: 0.945834}>",
+      "bounds_centre": [
+        175.624,
+        -369.858,
+        37.775
+      ],
+      "bounds_half": [
+        31.436,
+        29.222,
+        21.388
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB64780) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_31",
+      "location": [
+        -87.506,
+        -175.388,
+        31.249
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F90A0) {pitch: -8.345639, yaw: 6.714674, roll: 2.183040}>",
+      "bounds_centre": [
+        -87.506,
+        -175.388,
+        31.249
+      ],
+      "bounds_half": [
+        19.852,
+        17.754,
+        14.123
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB61F00) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_32",
+      "location": [
+        60.104,
+        130.696,
+        37.737
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: -0.442466, yaw: 72.474091, roll: 13.206371}>",
+      "bounds_centre": [
+        60.104,
+        130.696,
+        37.737
+      ],
+      "bounds_half": [
+        33.723,
+        32.271,
+        22.958
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6BB40) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_33",
+      "location": [
+        454.288,
+        -382.679,
+        35.249
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 5.944550, yaw: -118.820351, roll: 10.956207}>",
+      "bounds_centre": [
+        454.288,
+        -382.679,
+        35.249
+      ],
+      "bounds_half": [
+        28.388,
+        24.787,
+        20.417
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB60E80) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_34",
+      "location": [
+        371.879,
+        267.274,
+        29.707
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: -6.073502, yaw: 13.827834, roll: -2.933957}>",
+      "bounds_centre": [
+        371.879,
+        267.274,
+        29.707
+      ],
+      "bounds_half": [
+        25.42,
+        17.273,
+        12.609
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB66B80) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_35",
+      "location": [
+        223.129,
+        224.873,
+        27.774
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F90A0) {pitch: 8.328397, yaw: 64.768509, roll: -5.103531}>",
+      "bounds_centre": [
+        223.129,
+        224.873,
+        27.774
+      ],
+      "bounds_half": [
+        27.907,
+        30.227,
+        12.762
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6D2C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_36",
+      "location": [
+        -149.983,
+        254.336,
+        34.125
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: 19.597717, yaw: -110.912315, roll: 3.216705}>",
+      "bounds_centre": [
+        -149.983,
+        254.336,
+        34.125
+      ],
+      "bounds_half": [
+        30.249,
+        31.741,
+        21.829
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB69700) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_37",
+      "location": [
+        -160.651,
+        -187.592,
+        31.241
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 5.500000, yaw: -176.174133, roll: -12.759995}>",
+      "bounds_centre": [
+        -160.651,
+        -187.592,
+        31.241
+      ],
+      "bounds_half": [
+        15.488,
+        24.613,
+        16.94
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB60700) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_38",
+      "location": [
+        33.834,
+        270.795,
+        27.39
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: 5.834057, yaw: 55.808247, roll: 13.831871}>",
+      "bounds_centre": [
+        33.834,
+        270.795,
+        27.39
+      ],
+      "bounds_half": [
+        38.644,
+        39.251,
+        16.239
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB690C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_39",
+      "location": [
+        -43.983,
+        -276.75,
+        31.868
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F90A0) {pitch: 16.885429, yaw: 74.185150, roll: -6.144835}>",
+      "bounds_centre": [
+        -43.983,
+        -276.75,
+        31.868
+      ],
+      "bounds_half": [
+        17.998,
+        23.571,
+        17.933
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB63180) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_40",
+      "location": [
+        -118.351,
+        352.574,
+        29.669
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: -5.174129, yaw: 49.116493, roll: 0.848069}>",
+      "bounds_centre": [
+        -118.351,
+        352.574,
+        29.669
+      ],
+      "bounds_half": [
+        23.736,
+        23.967,
+        11.354
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB68540) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_41",
+      "location": [
+        -163.352,
+        226.352,
+        34.649
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: -10.124786, yaw: -157.899841, roll: -1.015411}>",
+      "bounds_centre": [
+        -163.352,
+        226.352,
+        34.649
+      ],
+      "bounds_half": [
+        27.582,
+        27.146,
+        18.117
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB632C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_42",
+      "location": [
+        -152.902,
+        174.167,
+        32.133
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: 11.467351, yaw: 33.009102, roll: -6.374426}>",
+      "bounds_centre": [
+        -152.902,
+        174.167,
+        32.133
+      ],
+      "bounds_half": [
+        20.697,
+        22.396,
+        16.087
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6DD00) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_43",
+      "location": [
+        -81.623,
+        189.712,
+        36.678
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F90A0) {pitch: 14.185471, yaw: -108.500366, roll: -13.621887}>",
+      "bounds_centre": [
+        -81.623,
+        189.712,
+        36.678
+      ],
+      "bounds_half": [
+        20.278,
+        30.054,
+        24.163
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB68480) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_44",
+      "location": [
+        208.215,
+        -182.669,
+        27.449
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: -10.541443, yaw: -176.452515, roll: 1.858902}>",
+      "bounds_centre": [
+        208.215,
+        -182.669,
+        27.449
+      ],
+      "bounds_half": [
+        22.397,
+        21.642,
+        11.633
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB67180) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_45",
+      "location": [
+        21.357,
+        -270.234,
+        38.983
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: -10.676911, yaw: 57.162884, roll: 10.345562}>",
+      "bounds_centre": [
+        21.357,
+        -270.234,
+        38.983
+      ],
+      "bounds_half": [
+        28.169,
+        26.82,
+        24.876
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB64B00) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_46",
+      "location": [
+        -6.656,
+        243.623,
+        30.027
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: 16.525679, yaw: 63.835007, roll: -2.150821}>",
+      "bounds_centre": [
+        -6.656,
+        243.623,
+        30.027
+      ],
+      "bounds_half": [
+        26.551,
+        27.011,
+        15.52
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6D940) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_47",
+      "location": [
+        320.87,
+        -138.246,
+        33.306
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F90A0) {pitch: 16.989136, yaw: -110.137230, roll: 14.686752}>",
+      "bounds_centre": [
+        320.87,
+        -138.246,
+        33.306
+      ],
+      "bounds_half": [
+        34.488,
+        37.801,
+        26.422
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB69840) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_48",
+      "location": [
+        372.038,
+        -196.018,
+        27.129
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: 12.762711, yaw: -122.540535, roll: -13.112091}>",
+      "bounds_centre": [
+        372.038,
+        -196.018,
+        27.129
+      ],
+      "bounds_half": [
+        24.297,
+        26.814,
+        14.759
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6E4C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_49",
+      "location": [
+        548.213,
+        -186.499,
+        34.302
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 13.925183, yaw: 67.994347, roll: -13.709319}>",
+      "bounds_centre": [
+        548.213,
+        -186.499,
+        34.302
+      ],
+      "bounds_half": [
+        30.874,
+        35.165,
+        24.771
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6DA80) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_50",
+      "location": [
+        509.645,
+        -364.785,
+        27.399
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: -9.121414, yaw: -98.599327, roll: -6.152130}>",
+      "bounds_centre": [
+        509.645,
+        -364.785,
+        27.399
+      ],
+      "bounds_half": [
+        14.156,
+        17.692,
+        10.851
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB61FC0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_51",
+      "location": [
+        499.247,
+        144.58,
+        37.382
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F90A0) {pitch: 14.629437, yaw: 16.010170, roll: -4.007627}>",
+      "bounds_centre": [
+        499.247,
+        144.58,
+        37.382
+      ],
+      "bounds_half": [
+        28.329,
+        19.069,
+        23.288
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB66E80) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_52",
+      "location": [
+        623.412,
+        217.497,
+        33.847
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: 10.749055, yaw: 33.027866, roll: 8.015247}>",
+      "bounds_centre": [
+        623.412,
+        217.497,
+        33.847
+      ],
+      "bounds_half": [
+        35.731,
+        32.257,
+        21.26
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6B7C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_53",
+      "location": [
+        706.251,
+        -378.162,
+        37.94
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 18.774536, yaw: -146.428146, roll: 13.452194}>",
+      "bounds_centre": [
+        706.251,
+        -378.162,
+        37.94
+      ],
+      "bounds_half": [
+        30.47,
+        22.411,
+        26.417
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6E200) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_54",
+      "location": [
+        528.793,
+        -317.884,
+        33.455
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F96E0) {pitch: 5.103309, yaw: 24.705259, roll: -9.040042}>",
+      "bounds_centre": [
+        528.793,
+        -317.884,
+        33.455
+      ],
+      "bounds_half": [
+        28.813,
+        28.083,
+        18.11
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6CE80) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_55",
+      "location": [
+        529.614,
+        199.277,
+        36.3
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F90A0) {pitch: 13.044998, yaw: -172.749893, roll: 14.263626}>",
+      "bounds_centre": [
+        529.614,
+        199.277,
+        36.3
+      ],
+      "bounds_half": [
+        25.057,
+        23.325,
+        24.299
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB67500) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_56",
+      "location": [
+        690.349,
+        -268.837,
+        33.593
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: -5.692330, yaw: 59.446522, roll: -0.209776}>",
+      "bounds_centre": [
+        690.349,
+        -268.837,
+        33.593
+      ],
+      "bounds_half": [
+        25.478,
+        27.859,
+        15.735
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6CC40) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Rubble_57",
+      "location": [
+        634.282,
+        -237.686,
+        34.493
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 18.512512, yaw: 83.786125, roll: 13.337130}>",
+      "bounds_centre": [
+        634.282,
+        -237.686,
+        34.493
+      ],
+      "bounds_half": [
+        21.742,
+        30.679,
+        24.868
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6DB00) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Fallen_Timber_0",
+      "location": [
+        300.674,
+        201.23,
+        40.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: 0.000000, yaw: -21.076071, roll: 0.000000}>",
+      "bounds_centre": [
+        300.674,
+        201.23,
+        40.0
+      ],
+      "bounds_half": [
+        90.855,
+        40.973,
+        9.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB67040) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Fallen_Timber_1",
+      "location": [
+        176.732,
+        171.582,
+        40.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 0.000000, yaw: -61.220901, roll: 0.000000}>",
+      "bounds_centre": [
+        176.732,
+        171.582,
+        40.0
+      ],
+      "bounds_half": [
+        45.51,
+        74.497,
+        9.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB61180) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Fallen_Timber_2",
+      "location": [
+        326.27,
+        -223.608,
+        40.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: 0.000000, yaw: 19.416971, roll: 0.000000}>",
+      "bounds_centre": [
+        326.27,
+        -223.608,
+        40.0
+      ],
+      "bounds_half": [
+        81.553,
+        34.941,
+        9.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB66FC0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Fallen_Timber_3",
+      "location": [
+        391.324,
+        -232.766,
+        40.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 0.000000, yaw: -14.622674, roll: 0.000000}>",
+      "bounds_centre": [
+        391.324,
+        -232.766,
+        40.0
+      ],
+      "bounds_half": [
+        83.341,
+        28.507,
+        9.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB644C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Fallen_Timber_4",
+      "location": [
+        221.224,
+        -265.119,
+        40.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: 0.000000, yaw: 6.026236, roll: 0.000000}>",
+      "bounds_centre": [
+        221.224,
+        -265.119,
+        40.0
+      ],
+      "bounds_half": [
+        108.642,
+        18.844,
+        9.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB660C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Fallen_Timber_5",
+      "location": [
+        347.36,
+        271.188,
+        40.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 0.000000, yaw: -16.824917, roll: 0.000000}>",
+      "bounds_centre": [
+        347.36,
+        271.188,
+        40.0
+      ],
+      "bounds_half": [
+        95.705,
+        35.463,
+        9.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB65D00) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Fallen_Timber_6",
+      "location": [
+        370.436,
+        -213.032,
+        40.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: 0.000000, yaw: -1.520396, roll: 0.000000}>",
+      "bounds_centre": [
+        370.436,
+        -213.032,
+        40.0
+      ],
+      "bounds_half": [
+        89.199,
+        9.86,
+        9.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB65540) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Fallen_Timber_7",
+      "location": [
+        -92.757,
+        222.142,
+        40.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 0.000000, yaw: 4.805666, roll: 0.000000}>",
+      "bounds_centre": [
+        -92.757,
+        222.142,
+        40.0
+      ],
+      "bounds_half": [
+        91.114,
+        15.081,
+        9.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB618C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Slate_Debris_0",
+      "location": [
+        421.25,
+        281.485,
+        27.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: 0.000000, yaw: 31.362961, roll: 0.000000}>",
+      "bounds_centre": [
+        421.25,
+        281.485,
+        27.0
+      ],
+      "bounds_half": [
+        19.653,
+        20.791,
+        2.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB61240) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Slate_Debris_1",
+      "location": [
+        458.816,
+        -287.462,
+        27.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 0.000000, yaw: 68.791222, roll: 0.000000}>",
+      "bounds_centre": [
+        458.816,
+        -287.462,
+        27.0
+      ],
+      "bounds_half": [
+        16.373,
+        16.001,
+        2.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6A640) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Slate_Debris_2",
+      "location": [
+        490.592,
+        -185.057,
+        27.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: 0.000000, yaw: 78.723053, roll: 0.000000}>",
+      "bounds_centre": [
+        490.592,
+        -185.057,
+        27.0
+      ],
+      "bounds_half": [
+        15.754,
+        19.723,
+        2.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6A740) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Slate_Debris_3",
+      "location": [
+        136.38,
+        278.038,
+        27.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 0.000000, yaw: 2.004201, roll: 0.000000}>",
+      "bounds_centre": [
+        136.38,
+        278.038,
+        27.0
+      ],
+      "bounds_half": [
+        13.534,
+        12.414,
+        2.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6EB80) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Slate_Debris_4",
+      "location": [
+        131.938,
+        -172.108,
+        27.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: 0.000000, yaw: 36.658352, roll: 0.000000}>",
+      "bounds_centre": [
+        131.938,
+        -172.108,
+        27.0
+      ],
+      "bounds_half": [
+        20.929,
+        20.581,
+        2.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB66F00) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Slate_Debris_5",
+      "location": [
+        390.695,
+        261.729,
+        27.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 0.000000, yaw: -177.520355, roll: 0.000000}>",
+      "bounds_centre": [
+        390.695,
+        261.729,
+        27.0
+      ],
+      "bounds_half": [
+        16.778,
+        13.222,
+        2.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB66B00) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Slate_Debris_6",
+      "location": [
+        129.475,
+        -157.496,
+        27.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: 0.000000, yaw: 19.478519, roll: 0.000000}>",
+      "bounds_centre": [
+        129.475,
+        -157.496,
+        27.0
+      ],
+      "bounds_half": [
+        24.606,
+        18.475,
+        2.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB628C0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Slate_Debris_7",
+      "location": [
+        321.312,
+        -216.087,
+        27.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 0.000000, yaw: -161.478577, roll: 0.000000}>",
+      "bounds_centre": [
+        321.312,
+        -216.087,
+        27.0
+      ],
+      "bounds_half": [
+        20.669,
+        16.414,
+        2.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6CF80) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Slate_Debris_8",
+      "location": [
+        420.825,
+        184.077,
+        27.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: 0.000000, yaw: -164.582794, roll: 0.000000}>",
+      "bounds_centre": [
+        420.825,
+        184.077,
+        27.0
+      ],
+      "bounds_half": [
+        14.693,
+        15.661,
+        2.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB69CC0) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Slate_Debris_9",
+      "location": [
+        306.023,
+        -208.584,
+        27.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 0.000000, yaw: 0.849496, roll: 0.000000}>",
+      "bounds_centre": [
+        306.023,
+        -208.584,
+        27.0
+      ],
+      "bounds_half": [
+        16.875,
+        14.521,
+        2.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB69180) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Slate_Debris_10",
+      "location": [
+        464.976,
+        -260.774,
+        27.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: 0.000000, yaw: 26.763340, roll: 0.000000}>",
+      "bounds_centre": [
+        464.976,
+        -260.774,
+        27.0
+      ],
+      "bounds_half": [
+        18.742,
+        15.745,
+        2.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB67800) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Slate_Debris_11",
+      "location": [
+        371.101,
+        -203.23,
+        27.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 0.000000, yaw: 73.659264, roll: 0.000000}>",
+      "bounds_centre": [
+        371.101,
+        -203.23,
+        27.0
+      ],
+      "bounds_half": [
+        14.089,
+        15.246,
+        2.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB6D880) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Slate_Debris_12",
+      "location": [
+        315.595,
+        288.306,
+        27.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: 0.000000, yaw: 30.597452, roll: 0.000000}>",
+      "bounds_centre": [
+        315.595,
+        288.306,
+        27.0
+      ],
+      "bounds_half": [
+        22.868,
+        19.9,
+        2.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB63600) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Slate_Debris_13",
+      "location": [
+        66.138,
+        263.837,
+        27.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 0.000000, yaw: -134.626114, roll: -0.000000}>",
+      "bounds_centre": [
+        66.138,
+        263.837,
+        27.0
+      ],
+      "bounds_half": [
+        21.235,
+        21.32,
+        2.5
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB60580) {min: {x: -50.000000, y: -50.000000, z: -50.000000}, max: {x: 50.000000, y: 50.000000, z: 50.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Scale_Reference_180cm",
+      "location": [
+        -100.0,
+        145.0,
+        20.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds_centre": [
+        -100.0,
+        145.0,
+        110.0
+      ],
+      "bounds_half": [
+        12.0,
+        30.0,
+        90.0
+      ],
+      "hidden_editor": false,
+      "mesh_bounds": "<Struct 'Box' (0x0000024FBDB66FC0) {min: {x: -12.000000, y: -30.000000, z: 0.000000}, max: {x: 12.000000, y: 30.000000, z: 180.000000}, is_valid: True}>"
+    },
+    {
+      "label": "BO_Camera_West_Interior",
+      "location": [
+        130.0,
+        -25.0,
+        190.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: 6.909046, yaw: 1.446556, roll: -0.000000}>",
+      "bounds_centre": [
+        130.0,
+        -25.0,
+        190.0
+      ],
+      "bounds_half": [
+        1010.0,
+        1010.0,
+        1010.0
+      ],
+      "hidden_editor": false
+    },
+    {
+      "label": "BO_Camera_Exterior_Overview",
+      "location": [
+        -900.0,
+        -1600.0,
+        1120.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F00) {pitch: -19.626233, yaw: 47.815557, roll: 0.000000}>",
+      "bounds_centre": [
+        -900.0,
+        -1600.0,
+        1120.0
+      ],
+      "bounds_half": [
+        1010.0,
+        1010.0,
+        1010.0
+      ],
+      "hidden_editor": false
+    },
+    {
+      "label": "BO_Camera_Altar_Detail",
+      "location": [
+        675.0,
+        -100.0,
+        185.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000024F360F9F50) {pitch: -2.012479, yaw: 13.547939, roll: 0.000000}>",
+      "bounds_centre": [
+        675.0,
+        -100.0,
+        185.0
+      ],
+      "bounds_half": [
+        1010.0,
+        1010.0,
+        1010.0
+      ],
+      "hidden_editor": false
+    }
+  ],
+  "aisle_capsule_sweeps": [
+    {
+      "section": "doorway",
+      "y": -45,
+      "blocking_hit": false
+    },
+    {
+      "section": "doorway",
+      "y": 0,
+      "blocking_hit": false
+    },
+    {
+      "section": "doorway",
+      "y": 45,
+      "blocking_hit": false
+    },
+    {
+      "section": "aisle",
+      "y": -65,
+      "blocking_hit": false
+    },
+    {
+      "section": "aisle",
+      "y": 0,
+      "blocking_hit": false
+    },
+    {
+      "section": "aisle",
+      "y": 65,
+      "blocking_hit": false
+    }
+  ],
+  "all_sweeps_clear": true,
+  "saved_map": "/Game/GothicChapel/Levels/Main/GothicChapel_Main"
+}
