@@ -1,0 +1,16 @@
+{
+  "backup": "E:/2026_MBC/UE5_GothicChapel/Saved/LandscapeBackups\\20260930_111746",
+  "resolution": 505,
+  "xy_scale_cm": 50.0,
+  "origin": [
+    -12000,
+    -12600,
+    12
+  ],
+  "height_range_cm": [
+    -1942.96875,
+    -11.71875
+  ],
+  "material": "/Game/GothicChapel/Environment/Landscape/Materials/M_Landscape_ChapelHill",
+  "heightmap_import": "verified"
+}

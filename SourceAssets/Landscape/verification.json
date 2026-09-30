@@ -1,0 +1,89 @@
+{
+  "height_checks": [
+    {
+      "x": 600,
+      "y": 0,
+      "actual_z": 0.2812296152114868,
+      "expected_z": 0.28125,
+      "pass": true
+    },
+    {
+      "x": -1000,
+      "y": 0,
+      "actual_z": -43.477579951286316,
+      "expected_z": -43.46875,
+      "pass": true
+    },
+    {
+      "x": -3000,
+      "y": -250,
+      "actual_z": -763.0085945129395,
+      "expected_z": -763.0,
+      "pass": true
+    },
+    {
+      "x": -6000,
+      "y": 50,
+      "actual_z": -1419.2504286766052,
+      "expected_z": -1419.25,
+      "pass": true
+    },
+    {
+      "x": 600,
+      "y": 3000,
+      "actual_z": -796.5985834598541,
+      "expected_z": -796.59375,
+      "pass": true
+    },
+    {
+      "x": 600,
+      "y": -6000,
+      "actual_z": -1692.6910281181335,
+      "expected_z": -1692.6875,
+      "pass": true
+    },
+    {
+      "x": 9000,
+      "y": 0,
+      "actual_z": -1720.8164930343628,
+      "expected_z": -1720.8125,
+      "pass": true
+    }
+  ],
+  "interior_capsule_sweeps": [
+    {
+      "section": "doorway",
+      "y": -45,
+      "blocked": false
+    },
+    {
+      "section": "doorway",
+      "y": 0,
+      "blocked": false
+    },
+    {
+      "section": "doorway",
+      "y": 45,
+      "blocked": false
+    },
+    {
+      "section": "aisle",
+      "y": -65,
+      "blocked": false
+    },
+    {
+      "section": "aisle",
+      "y": 0,
+      "blocked": false
+    },
+    {
+      "section": "aisle",
+      "y": 65,
+      "blocked": false
+    }
+  ],
+  "max_approach_longitudinal_slope_degrees": 27.979474388480146,
+  "bounds": "(<Struct 'Vector' (0x000001C726E87710) {x: 600.000000, y: 0.000000, z: -965.343750}>, <Struct 'Vector' (0x000001C726E864A0) {x: 12600.000000, y: 12600.000000, z: 965.625000}>)",
+  "edit_layers_preserved": true,
+  "material": "<Object '/Game/GothicChapel/Environment/Landscape/Materials/M_Landscape_ChapelHill.M_Landscape_ChapelHill' (0x000001C7B2FC2A00) Class 'Material'>"
+}
